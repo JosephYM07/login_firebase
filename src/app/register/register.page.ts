@@ -20,12 +20,12 @@ export class RegisterPage {
       this.navCtrl.navigateRoot('/home');  // Redirigir al home después del registro
     } catch (error) {
       console.error('Error registering:', error);
-      // Aquí puedes manejar el error, por ejemplo, mostrar un mensaje al usuario
+      
     }
   }
 
   goBack() {
-    // Método para ir hacia atrás o al home, según necesites
-    this.navCtrl.navigateRoot('/home');  // Ajusta la ruta según la configuración de tu aplicación
+    // Método para ir hacia atrás o al home
+    this.navCtrl.navigateRoot('/home');  
   }
 }
